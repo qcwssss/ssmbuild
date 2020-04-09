@@ -37,75 +37,6 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
 
 1. 新建一Maven项目！ ssmbuild ， 添加web的支持
 2. 导入相关的pom依赖！
-
-```xml
-  <dependencies>
-        <!--Junit-->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-        </dependency>
-        <!--数据库驱动-->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.19</version>
-        </dependency>
-        <!-- 数据库连接池 -->
-        <dependency>
-            <groupId>com.mchange</groupId>
-            <artifactId>c3p0</artifactId>
-            <version>0.9.5.2</version>
-        </dependency>
-        <!--Servlet - JSP -->
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>jsp-api</artifactId>
-            <version>2.2</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-            <version>1.2</version>
-        </dependency>
-        <!--Mybatis-->
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.5.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis-spring</artifactId>
-            <version>2.0.2</version>
-        </dependency>
-        <!--Spring-->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>5.1.9.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-            <version>5.1.9.RELEASE</version>
-        </dependency>
-    <!-- lombok-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.8</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
-```
-
 3. Maven资源过滤设置 
 
 ```xml
@@ -133,11 +64,11 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
 
 4. **建立基本结构和配置框架**
 
-- com.wangqiang.pojo
+- com.liliya.pojo
 
-- com.wangqiang.dao
+- com.liliya.dao
 
-- com.wangqiang.service
+- com.liliya.service
 
 - Mybatis-config.xml      
 
@@ -186,43 +117,19 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
            "http://mybatis.org/dtd/mybatis-3-config.dtd">
    <configuration>
        <typeAliases>
-           <package name="com.wangqiang.pojo"/>
+           <package name="com.liliya.pojo"/>
        </typeAliases>
        <mappers>
-           <mapper class="com.wangqiang.dao.BookMapper" ></mapper>
+           <mapper class="com.liliya.dao.BookMapper" ></mapper>
        </mappers>
    </configuration>
    ```
 
-4. 编写数据库对应的实体类com.wangqiang.pojo.Books(使用lombok插件)
-
-   ```java
-   package com.wangqiang.pojo;
-   
-   import lombok.AllArgsConstructor;
-   import lombok.Data;
-   import lombok.NoArgsConstructor;
-   
-   @Data
-   @AllArgsConstructor
-   @NoArgsConstructor
-   public class Books {
-       private int bookId;
-       private String bookName;
-       private int bookCounts;
-       private String detail;
-   }
-   ```
+4. 编写数据库对应的实体类com.liliya.pojo.Books(不推荐使用lombok插件)
 
 5. **编写Dao层的Mapper接口：BookMapper**
 
    ```java
-   package com.wangqiang.dao;
-   
-   import com.wangqiang.pojo.Books;
-   import org.apache.ibatis.annotations.Param;
-   import java.util.List;
-   
    public interface BookMapper {
        int addBook(Books book);//增加一个Book
        int deleteBookById(@Param(value = "bookId") int id);//根据id删除一个Book
@@ -239,7 +146,7 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
    <!DOCTYPE mapper
            PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
            "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-   <mapper namespace="com.wangqiang.dao.BookMapper">
+   <mapper namespace="com.liliya.dao.BookMapper">
        <insert id="addBook" parameterType="Books">
            insert into ssmbuild.books(bookName,bookCounts,detail)
            values (#{bookName},#{bookCounts},#{detail});
@@ -270,11 +177,6 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
    BookService接口：
 
    ```java
-   package com.wangqiang.service;
-   
-   import com.wangqiang.pojo.Books;
-   import java.util.List;
-   
    public interface BookService {
        int addBook(Books book);
        int deleteBookById( int id);
@@ -287,12 +189,6 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
    BookServiceImpl实现类：
 
    ```java
-   package com.wangqiang.service;
-   
-   import com.wangqiang.dao.BookMapper;
-   import com.wangqiang.pojo.Books;
-   import java.util.List;
-   
    public class BookServiceImpl implements BookService {
        //调用dao层的操作，设置一个set接口，方便Spring管理
        private BookMapper bookMapper;
@@ -377,7 +273,7 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
            <!-- 注入sqlSessionFactory -->
            <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
            <!-- 给出需要扫描Dao接口包 -->
-           <property name="basePackage" value="com.wangqiang.dao"/>
+           <property name="basePackage" value="com.liliya.dao"/>
        </bean>
    </beans>
    ```
@@ -395,11 +291,11 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
        http://www.springframework.org/schema/context/spring-context.xsd">
    
        <!--BookServiceImpl注入到IOC容器中-->
-       <bean id="BookServiceImpl" class="com.wangqiang.service.BookServiceImpl">
+       <bean id="BookServiceImpl" class="com.liliya.service.BookServiceImpl">
            <property name="bookMapper" ref="bookMapper"/>
        </bean>
        <!-- 扫描service相关的bean -->
-       <context:component-scan base-package="com.wangqiang.service"/>
+       <context:component-scan base-package="com.liliya.service"/>
        
        <!-- 配置事务管理器 -->
        <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
@@ -487,7 +383,7 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
        </bean>
    
        <!-- 4.扫描web相关的bean -->
-       <context:component-scan base-package="com.wangqiang.controller" />
+       <context:component-scan base-package="com.liliya.controller" />
    </beans>
    ```
 
@@ -513,18 +409,6 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
 1. BookController 类编写 。 方法一：查询全部书籍
 
    ```java
-   package com.wangqiang.controller;
-   
-   import com.wangqiang.pojo.Books;
-   import com.wangqiang.service.BookService;
-   import org.springframework.beans.factory.annotation.Autowired;
-   import org.springframework.beans.factory.annotation.Qualifier;
-   import org.springframework.stereotype.Controller;
-   import org.springframework.ui.Model;
-   import org.springframework.web.bind.annotation.PathVariable;
-   import org.springframework.web.bind.annotation.RequestMapping;
-   import java.util.List;
-   
    @Controller
    @RequestMapping("/book")
    public class BookController {
@@ -752,7 +636,6 @@ INSERT  INTO `books`(`bookID`,`bookName`,`bookCounts`,`detail`)VALUES
    ```
 ## 参考资料
 [狂神说Java](https://www.bilibili.com/video/av71874024?p=1)   
-后期自己完善了分页和模糊查询功能。
 
    
 
