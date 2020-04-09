@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssmbuild:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57c3d7a0-beec-4a77-96fd-b8f781134dcd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssmbuild_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/86b2e096-d106-42a9-bfa8-fe687dce4485.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/86b2e096-d106-42a9-bfa8-fe687dce4485/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/META-INF/ssmbuild.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/liliya/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/liliya/dao/BookMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/liliya/dao/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/liliya/pojo/Books.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/liliya/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/com/liliya/service/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/classes/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/jsp/addBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/jsp/allBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/jsp/updateBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/jackson-annotations-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/jsp-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/jsp-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/mybatis-spring-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/mybatis-spring-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-tx-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmbuild_war_exploded/static/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liliya/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liliya/dao/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liliya/dao/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liliya/pojo/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liliya/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liliya/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssmbuild.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/ssmbuild.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/liliya/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/liliya/dao/BookMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/liliya/dao/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/liliya/pojo/Books.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/liliya/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/liliya/service/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/addBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/allBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/updateBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/jquery-3.4.1.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ssmbuild: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ssmbuild: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="books: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\JavaEE\maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zwmfebr0dySywhCub6agBsGV6S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39926404" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaEE\IDEA\ssmbuild\web" />
+      <recent name="D:\JavaEE\IDEA\ssmbuild" />
+      <recent name="D:\JavaEE\IDEA\ssmbuild\web\WEB-INF\jsp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaEE\IDEA\ssmbuild\web\WEB-INF\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.64">
+    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssmbuild" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssmbuild" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.64" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="ssmbuild:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssmbuild_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52359" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssmbuild:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MyTest.test" />
+      <item itemvalue="JUnit.MyTest" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.64" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test" />
+        <item itemvalue="JUnit.MyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57c3d7a0-beec-4a77-96fd-b8f781134dcd" name="Default Changelist" comment="" />
+      <created>1585758635708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585758635708</updated>
+      <workItem from="1585758641124" duration="4758000" />
+      <workItem from="1585794425918" duration="15687000" />
+      <workItem from="1585816267549" duration="922000" />
+      <workItem from="1585818456187" duration="231000" />
+      <workItem from="1585818781927" duration="458000" />
+      <workItem from="1585823723740" duration="6001000" />
+      <workItem from="1585837972102" duration="4922000" />
+      <workItem from="1585903945373" duration="3389000" />
+      <workItem from="1585915952094" duration="8614000" />
+      <workItem from="1586100727272" duration="6722000" />
+      <workItem from="1586318526886" duration="2913000" />
+      <workItem from="1586324753566" duration="690000" />
+      <workItem from="1586427009941" duration="248000" />
+      <workItem from="1586428565185" duration="3396000" />
+      <workItem from="1586434051725" duration="780000" />
+    </task>
+    <task id="LOCAL-00001" summary="一个简单的SSM项目-图书管理">
+      <created>1586434215281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586434215281</updated>
+    </task>
+    <task id="LOCAL-00002" summary="一个简单的SSM项目-图书管理">
+      <created>1586434596490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586434596490</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="一个简单的SSM项目-图书管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="一个简单的SSM项目-图书管理" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="261" y="0" key="#Notifications" timestamp="1586434567624">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="0" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1586434567624" />
+    <state x="261" y="0" key="#Project_Structure" timestamp="1585825347546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585825347546" />
+    <state x="118" y="106" width="1037" height="664" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586320761921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="118" y="106" width="1037" height="664" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586320761921" />
+    <state x="530" y="16" key="#com.intellij.ide.util.MemberChooser" timestamp="1586433049875">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="16" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586433049875" />
+    <state x="316" y="24" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585827747517">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="316" y="24" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1585827747517" />
+    <state x="436" y="105" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1586105519999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="105" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586105519999" />
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1586434593491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586434593491" />
+    <state width="314" height="242" key="DatabaseViewActions_Filter" timestamp="1585921915305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="314" height="242" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1585921915305" />
+    <state x="499" y="105" key="FileChooserDialogImpl" timestamp="1586434815953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="105" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586434815953" />
+    <state x="565" y="302" width="435" height="219" key="Github.CreateGistDialog" timestamp="1586433853641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="302" width="435" height="219" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1586433853641" />
+    <state width="1481" height="365" key="GridCell.Tab.0.bottom" timestamp="1586433987768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="365" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586433987768" />
+    <state width="1481" height="365" key="GridCell.Tab.0.center" timestamp="1586433987768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="365" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586433987768" />
+    <state width="1481" height="365" key="GridCell.Tab.0.left" timestamp="1586433987767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="365" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586433987767" />
+    <state width="1481" height="365" key="GridCell.Tab.0.right" timestamp="1586433987768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="365" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586433987768" />
+    <state x="149" y="0" width="915" height="662" key="SettingsEditor" timestamp="1586325707650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="149" y="0" width="915" height="662" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586325707650" />
+    <state x="423" y="91" width="675" height="655" key="StructurePopup" timestamp="1585760834709">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="423" y="91" width="675" height="655" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1585760834709" />
+    <state x="261" y="75" key="Vcs.Push.Dialog.v2" timestamp="1586434711876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="75" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586434711876" />
+    <state x="396" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1586434064312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="396" y="189" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586434064312" />
+    <state x="527" y="38" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586428651984">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="38" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1586428651984" />
+    <state x="341" y="183" key="run.anything.popup" timestamp="1586432880305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586432880305" />
+    <state x="449" y="16" key="spring file set editor" timestamp="1585824227462">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="16" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1585824227462" />
+  </component>
+</project>
